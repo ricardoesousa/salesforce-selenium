@@ -1,0 +1,12 @@
+driver\DriverManagerFactory$1.class
+hooks\DefaultProperties.class
+pages\Contas.class
+report\Report.class
+driver\ChromeDriverManager.class
+pages\Inicio.class
+driver\DriverManager.class
+driver\DriverType.class
+driver\DriverManagerFactory.class
+pages\Servico.class
+driver\EdgeDriverManager.class
+pages\Login.class

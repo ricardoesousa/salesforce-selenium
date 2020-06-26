@@ -1,0 +1,228 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7656938100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.init()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "CT001 - Conta - Criar conta com sucesso",
+        "description": "",
+        "id": "conta;ct001---conta---criar-conta-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 781614000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15253609800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "eu esteja logado e tenha acessado a página de contas",
+            "match": {
+              "location": "ContaSteps.euEstejaLogadoETenhaAcessadoAPáginaDeContas()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3854880800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu criar uma nova conta com dados válidos",
+            "match": {
+              "location": "ContaSteps.euCriarUmaNovaContaComDadosVálidos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1322250100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "eu devo ver uma mensagem indicando que a conta foi cadastrada com sucesso",
+            "match": {
+              "location": "ContaSteps.euDevoVerUmaMensagemIndicandoQueAContaFoiCadastradaComSucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5493430300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.init()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "CT002 - Conta - Excluir conta com sucesso",
+        "description": "",
+        "id": "conta;ct002---conta---excluir-conta-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 732247100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15306042500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "eu esteja logado e tenha acessado a página de contas",
+            "match": {
+              "location": "ContaSteps.euEstejaLogadoETenhaAcessadoAPáginaDeContas()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4746212100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "eu selecionar e excluir uma conta",
+            "match": {
+              "location": "ContaSteps.euSelecionarUmaContaEExcluirUmaConta()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 743847600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "eu devo ver uma mensagem indicando que a conta foi excluida com sucesso",
+            "match": {
+              "location": "ContaSteps.euDevoVerUmaMensagemIndicandoQueAContaFoiExcluidaComSucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Conta",
+    "description": "",
+    "id": "conta",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/Conta.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5352154700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.init()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "CT001 - Login - Efetuar login com sucesso",
+        "description": "",
+        "id": "login;ct001---login---efetuar-login-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 875536600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2388284400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "eu tenha acessado a aplicação e esteja na página de login",
+            "match": {
+              "location": "LoginSteps.euTenhaAcessadoAAplicaçãoEEstejaNaPáginaDeLogin()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3572579900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu logar no sistema com dados válidos",
+            "match": {
+              "location": "LoginSteps.euLogarNoSistemaComDadosVálidos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 7664863700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "eu devo acessar a home e ver uma mensagem com o nome de usuário",
+            "match": {
+              "location": "LoginSteps.euDevoAcessarAHomeEVerUmaMensagemComONomeDeUsuário()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]

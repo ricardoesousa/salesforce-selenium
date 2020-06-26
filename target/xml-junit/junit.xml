@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="76.063018">
+    <testcase classname="Conta" name="CT001 - Conta - Criar conta com sucesso" time="29.153092">
+        <system-out><![CDATA[Dado eu esteja logado e tenha acessado a página de contas...................passed
+Quando eu criar uma nova conta com dados válidos............................passed
+Entao eu devo ver uma mensagem indicando que a conta foi cadastrada com sucesso.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Conta" name="CT002 - Conta - Excluir conta com sucesso" time="27.029369">
+        <system-out><![CDATA[Dado eu esteja logado e tenha acessado a página de contas...................passed
+Quando eu selecionar e excluir uma conta....................................passed
+Entao eu devo ver uma mensagem indicando que a conta foi excluida com sucesso.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login" name="CT001 - Login - Efetuar login com sucesso" time="19.880557">
+        <system-out><![CDATA[Dado eu tenha acessado a aplicação e esteja na página de login..............passed
+Quando eu logar no sistema com dados válidos................................passed
+Entao eu devo acessar a home e ver uma mensagem com o nome de usuário.......passed
+]]></system-out>
+    </testcase>
+</testsuite>
